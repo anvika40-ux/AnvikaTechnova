@@ -9,11 +9,9 @@
   <!-- AOS CSS -->
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  
 </head>
 <body>
-  <canvas id="matrixCanvas"></canvas>
- <div class="site">
+  <div class="site">
 
     <!-- NAV -->
     <nav class="nav container">
@@ -31,43 +29,41 @@
         <a href="#contact">Contact</a>
       </div>
     </nav>
-<!-- HERO: banner + avatar -->
-<header class="hero">
-  <!-- full-width banner -->
-  <div class="site-banner">
-    <img src="anvika40-uxbanner.jpg" alt="Anvika TechNova Banner" class="banner-img">
-  </div>
 
-  <div class="hero-inner container">
-    <div class="hero-left">
-      <h1 class="name">Anuradha <span class="highlight">Chaurasiya</span></h1>
-      <p class="titles">Web Developer • Frontend Developer • Student + Developer</p>
-      <p class="tagline">Building the future with code.</p>
+    <!-- HERO -->
+    <header class="hero container">
+      <div class="hero-left" data-aos="fade-right">
+        <h1 class="name">Anuradha <span class="highlight">Chaurasiya</span></h1>
+        <p class="titles">Web Developer • Frontend Developer • Student + Developer</p>
+        <p class="tagline">Building the future with code.</p>
 
-      <div class="cta-row">
-        <a class="btn primary" href="mailto:helloanvika7@gmail.com">Hire Me</a>
-        <a class="btn outline" href="resume.pdf" download>Download Resume</a>
+        <div class="cta-row">
+          <a class="btn primary" href="mailto:helloanvika7@gmail.com" target="_blank">Hire Me</a>
+          <a class="btn outline" href="resume.pdf" download>Download Resume</a>
+        </div>
+
+        <div class="meta" data-aos="fade-up" data-aos-delay="140">
+          <span>📍 Ghazipur, Uttar Pradesh</span>
+          <span>📧 helloanvika7@gmail.com</span>
+          <span>📱 +91 6386892158</span>
+        </div>
       </div>
-    </div>
 
-    <aside class="hero-right">
-      <div class="avatar-wrap">
-        <img src="avatar.jpg" alt="Anuradha Avatar" class="avatar-img">
-      </div>
-      <div class="card">
+      <aside class="hero-right card" data-aos="fade-left" data-aos-delay="80">
         <div class="card-title">Quick Skills</div>
         <ul class="skills">
           <li>HTML / CSS / JS</li>
           <li>React (basics)</li>
-          <li>Python</li>
+          <li>Python (scripts & data)</li>
           <li>Responsive Design</li>
+          <li>Git • Netlify • GitHub</li>
         </ul>
-      </div>
-    </aside>
-  </div>
-</header>
+        <div class="card-cta">
+          <a class="btn small" href="#contact">Let’s Talk</a>
+        </div>
+      </aside>
+    </header>
 
-  
     <!-- ABOUT -->
     <section id="about" class="section about container" data-aos="fade-up">
       <h2>About Me</h2>
@@ -135,8 +131,6 @@
           <!-- If you want real inbox, replace action with Formspree/Netlify Forms -->
           <label>
             Your name
-            <span id="typing"></span>
-
             <input type="text" name="name" required>
           </label>
           <label>
@@ -148,8 +142,6 @@
             <textarea name="message" rows="5" required></textarea>
           </label>
           <button class="btn primary" type="submit">Send Message</button>
-          
-
         </form>
       </div>
     </section>
@@ -167,6 +159,3 @@
   <script> AOS.init({ duration:700, once:true }); </script>
 </body>
 </html>
-
-
-
