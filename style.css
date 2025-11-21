@@ -334,3 +334,48 @@ body {
     height: 200px;
   }
 }
+
+/* ---------------------------------------------------------
+   HACKER MATRIX BACKGROUND + NEON GRID
+------------------------------------------------------------*/
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, rgba(127,92,255,0.15), transparent 70%),
+              repeating-linear-gradient(90deg, rgba(0,255,255,0.05) 0px, rgba(0,255,255,0.05) 1px, transparent 1px, transparent 40px),
+              repeating-linear-gradient(0deg, rgba(0,255,255,0.05) 0px, rgba(0,255,255,0.05) 1px, transparent 1px, transparent 40px);
+  z-index: -2;
+}
+
+/* MATRIX RAIN LAYER */
+#matrixCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.22;
+}
+
+/* ---------------------------------------------------------
+   NEON CURSOR GLOW
+------------------------------------------------------------*/
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+  border-radius: 50%;
+  background: var(--primary);
+  box-shadow: 0 0 20px var(--primary);
+  transform: translate(-50%, -50%);
+  transition: 0.1s ease-out;
+  z-index: 9999;
+}
