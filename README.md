@@ -73,7 +73,7 @@ Currently pursuing **B.Sc Mathematics** and growing skills in **Web Development,
 ## 📬 Contact Me
 - 💼 Portfolio: *Coming Soon*
 - 📧 Email: **helloanvika7@gmail.com**
-- 📱 WhatsApp: **6386892158**
+  
 
 ---
 
