@@ -1,82 +1,102 @@
-<p align="center">
-  <img src="anvika40-uxbanner.jpg" alt="Anvika TechNova Banner" width="100%">
-</p>
+<div align="center">
 
+# 🌐 **Anvika Technova**
+### _Modern • Minimal • Elegant Portfolio Website_
 
+<img src="anvika40-uxbanner.jpg" width="800" />
 
-<!-- Banner -->
-<h1 align="center">✨ Welcome to Anvika TechNova ✨</h1>
-<h3 align="center">Web Developer | Frontend Developer | AI Learner | Student + Developer</h3>
+<br/>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=anvika40-ux&label=Profile%20Views&color=blue&style=flat" alt="profile views" />
-</p>
+[![Made with Love](https://img.shields.io/badge/Made%20with-Love-pink.svg)]()
+[![Status](https://img.shields.io/badge/Project-Active-brightgreen)]()
+[![Profile Views](https://komarev.com/ghpvc/?username=anvika40-ux&style=flat-square)]()
 
----
-
-## 🌟 About Me  
-**Hi, I'm Anuradha Chaurasiya**, the creator of **Anvika TechNova** — a passionate Web Developer & AI enthusiast.  
-I love building beautiful, fast, and modern websites.  
-Currently pursuing **B.Sc Mathematics** and growing skills in **Web Development, Python & AI**.  
-
-🚀 *Building the future with code.*
+</div>
 
 ---
 
-## 🚀 Skills & Technologies
+## ✨ **About Me**
 
-### 🖥 Frontend Development
-- HTML  
-- CSS  
-- JavaScript  
-- Responsive Design  
-- UI/UX Basics  
+Hi! I'm **Anuradha**, currently pursuing **B.Sc in Mathematics**  
+and learning **Web Development & Programming** to build beautiful digital experiences.
 
-### ⚙ Tools & Platforms
-- Git & GitHub  
-- Netlify  
-- VS Code  
-- Canva  
-
-### 🤖 Learning Now
-- Python  
-- Machine Learning Basics  
-- AI Development  
+This repository contains my personal portfolio **Anvika Technova**,  
+designed to present my skills, creativity, and learning journey.
 
 ---
 
-## 📌 Featured Projects  
-🔹 **Anvika TechNova – Portfolio Website**  
-🌐 Live: *Coming Soon*  
-📦 GitHub: *(Add link here)*
+## 🚀 **Live Demo**
 
-🔹 **Web Development Mini Projects**  
-📦 GitHub: *(Add links here)*
+🔗 **Netlify Deployment:**  
+https://app.netlify.com/teams/anvika40-ux/projects  
 
----
-
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anvika40-ux&theme=default" alt="streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anvika40-ux&show_icons=true&theme=default" alt="stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anvika40-ux&layout=compact" alt="top languages" />
-</p>
+🔗 **GitHub Repository:**  
+https://github.com/anvika40-ux/AnvikaTechnova
 
 ---
 
-## 📬 Contact Me
-- 💼 Portfolio: *Coming Soon*
-- 📧 Email: **helloanvika7@gmail.com**
-  
+## 💡 **Website Highlights**
+
+✔ Fully Responsive  
+✔ Smooth & Modern UI  
+✔ Fast Loading  
+✔ Clean Code  
+✔ Elegant Design  
+✔ Easy to Customize  
 
 ---
 
-## 💖 Thank You for Visiting!
-⭐ If you like my work, feel free to star the repositories!
+## 🛠️ **Tech Stack I Work With**
 
+<div align="center">
+
+| Skill | Badge |
+|-------|--------|
+| HTML | ![](https://img.shields.io/badge/HTML-FF5733?style=for-the-badge) |
+| CSS | ![](https://img.shields.io/badge/CSS-2965F1?style=for-the-badge) |
+| JavaScript | ![](https://img.shields.io/badge/JavaScript-F7E018?style=for-the-badge) |
+| Python | ![](https://img.shields.io/badge/Python-3476AB?style=for-the-badge) |
+| C Programming | ![](https://img.shields.io/badge/C-1E90FF?style=for-the-badge) |
+
+</div>
+
+---
+
+## 📸 **Preview**
+screenshot.png
+
+---
+
+## 🤝 **Contributing**
+
+Contributions are welcome!  
+Follow these steps:
+
+1. Fork the repository  
+2. Create a new branch  
+3. Commit your changes  
+4. Open a pull request  
+
+---
+
+## 📜 **License**
+
+This project is released under the **MIT License**.  
+Feel free to use, modify, and distribute.
+
+---
+
+## 📬 **Contact Me**
+
+📧 Email — **helloanvika7@gmail.com**  
+📸 Instagram — https://www.instagram.com/anvika__technova___  
+👤 GitHub — https://github.com/anvika40-ux  
+
+---
+
+<div align="center">
+
+### ✨ _Thank you for visiting my project!_  
+**⭐ Don’t forget to star the repo!**
+
+</div>
