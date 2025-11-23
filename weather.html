@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SmartWeather — Live Weather App</title>
+
+  <!-- If you already have global style.css and want same look, keep this link:
+  <link rel="stylesheet" href="style.css"> 
+  Otherwise this page has its own small CSS below -->
+  <style>
+    /* Minimal self-contained modern style (glass + gradient) */
+    *{box-sizing:border-box;margin:0;padding:0;font-family: 'Poppins', sans-serif;}
+    body{
+      min-height:100vh;display:flex;align-items:center;justify-content:center;
+      background:linear-gradient(135deg,#6C63FF,#7BC6FF);padding:24px;
+    }
+    .app{
+      width:100%;max-width:420px;background:rgba(255,255,255,0.08);
+      border-radius:16px;padding:22px;backdrop-filter:blur(10px);
+      box-shadow:0 10px 30px rgba(0,0,0,0.25);color:#fff;
+    }
+    .brand{font-size:1.6rem;font-weight:700;margin-bottom:12px;text-align:center;}
+    .desc{font-size:0.92rem;opacity:0.95;text-align:center;margin-bottom:16px;}
+    .search{display:flex;gap:10px;margin-bottom:12px;}
+    .search input{flex:1;padding:10px 12px;border-radius:10px;border:none;outline:none;font-size:1rem;}
+    .search button{padding:10px 14px;border-radius:10px;border:none;background:#fff;color:#222;font-weight:600;cursor:pointer;}
+    .error{color:#ffdede;background:rgba(255,0,0,0.08);padding:8px;border-radius:8px;margin-bottom:10px;display:none;}
+    .card{margin-top:10px;padding:16px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.03));}
+    .icon{width:100px;margin:0 auto 8px;display:block;}
+    .city{font-size:1.2rem;font-weight:700;text-align:center;margin-bottom:6px;}
+    .temp{font-size:2.2rem;font-weight:800;text-align:center;margin-bottom:8px;}
+    .meta{display:flex;justify-content:space-between;gap:8px;font-size:0.95rem;color:rgba(255,255,255,0.95);}
+    .meta p{margin:6px 0;text-align:center;flex:1;}
+    .loc-btn{margin-top:12px;display:block;width:100%;padding:10px;border-radius:10px;border:none;background:rgba(255,255,255,0.9);color:#111;font-weight:700;cursor:pointer;}
+    a.back{display:inline-block;margin-top:12px;color:#fff;text-decoration:underline;opacity:0.95;}
+    @media(max-width:420px){
+      .temp{font-size:1.8rem}
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <div class="brand">SmartWeather</div>
+    <div class="desc">Search any city to see live weather — or use your device location.</div>
+
+    <div class="search">
+      <input id="cityInput" placeholder="Enter city name (e.g. Mumbai)" />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="error" class="error"></div>
+
+    <div id="weatherCard" class="card" style="display:none;">
+      <img id="wIcon" class="icon" src="" alt="icon" />
+      <div id="cityName" class="city"></div>
+      <div id="temperature" class="temp"></div>
+
+      <div class="meta">
+        <p>Humidity: <span id="humidity"></span></p>
+        <p>Wind: <span id="wind"></span></p>
+        <p>Condition: <span id="condition"></span></p>
+      </div>
+    </div>
+
+    <button id="locBtn" class="loc-btn">📍 Use My Location</button>
+
+    <!-- Link back to portfolio home -->
+    <div style="text-align:center">
+      <a class="back" href="index.html">← Back to Portfolio</a>
+    </div>
+  </div>
+
+  <!-- Link to external script file (recommended). Create this file as shown below -->
+  <script src="weather-script.js"></script>
+
+  <!-- If you prefer inline script, you can paste the JS at the end here instead of separate file -->
+</body>
+</html>
