@@ -152,15 +152,21 @@
         <p>Email: helloanvika7@gmail.com</p>
         
       </div>
-      <form>
-        <label>Name</label>
-        <input type="text" required>
-        <label>Email</label>
-        <input type="email" required>
-        <label>Message</label>
-        <textarea rows="4" required></textarea>
-        <button>Send</button>
-      </form>
+    <form action="https://formsubmit.co/helloanvika7@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="New message from Portfolio!">
+    <input type="hidden" name="_captcha" value="false">
+
+    <label>Name</label>
+    <input type="text" name="name" required>
+
+    <label>Email</label>
+    <input type="email" name="email" required>
+
+    <label>Message</label>
+    <textarea name="message" required></textarea>
+
+    <button type="submit">Send</button>
+</form>  
     </div>
   </section>
 
@@ -182,6 +188,7 @@
   </script>
 </body>
 </html>
+
 
 
 
