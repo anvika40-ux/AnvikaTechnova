@@ -152,9 +152,16 @@
         <p>Email: helloanvika7@gmail.com</p>
         
       </div>
-    <form action="https://formsubmit.co/helloanvika7@gmail.com" method="POST">
-    <input type="hidden" name="_subject" value="New message from Portfolio!">
+  <form action="https://formsubmit.co/helloanvika7@gmail.com" method="POST">
+
+    <!-- Disable Captcha -->
     <input type="hidden" name="_captcha" value="false">
+
+    <!-- Email Format Clean -->
+    <input type="hidden" name="_template" value="table">
+
+    <!-- After submit redirect -->
+    <input type="hidden" name="_next" value="https://anvika40-ux.github.io/AnvikaTechnova/thankyou.html">
 
     <label>Name</label>
     <input type="text" name="name" required>
@@ -166,7 +173,7 @@
     <textarea name="message" required></textarea>
 
     <button type="submit">Send</button>
-</form>  
+</form>   
     </div>
   </section>
 
@@ -188,6 +195,7 @@
   </script>
 </body>
 </html>
+
 
 
 
